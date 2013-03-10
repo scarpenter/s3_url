@@ -5,7 +5,7 @@ require "cgi"
 require "openssl"
 
 AWS_ID = "replace_with_aws_id"
-AWS_KEY = "replace_with_awk_key"
+AWS_KEY = "replace_with_aws_key"
 EXPIRATION = 10 * 60
 
 bucket_name = ARGV[0]
